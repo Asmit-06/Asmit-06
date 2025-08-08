@@ -15,7 +15,7 @@
 
 - 📫 How to reach me **asmitchhotaray@gmail.com**
 
-- ⚡ Fun fact **I console.log more than I talk to people.**
+- ⚡ Fun fact **I console.log() more than I talk to people.**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
