@@ -5,13 +5,13 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=asmit-06" alt="asmit-06" /></a> </p>
 
-- 🌱 I’m currently learning **JavaScript**
+- 🌱 I’m currently learning **Node js**
 
 - 👯 I’m looking to collaborate on **Frontend Projects**
 
 - 🤝 I’m looking for help with **Improving UI/UX in Web Apps**
 
-- 💬 Ask me about **HTML, CSS, basics of JS**
+- 💬 Ask me about **HTML, CSS, JS, REACT ,GSAP**
 
 - 📫 How to reach me **asmitchhotaray@gmail.com**
 
