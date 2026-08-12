@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="480" viewBox="0 0 1600 480" role="img" aria-labelledby="title desc">
+  <title id="title">Asmit Chhotaray — CSE student building for the web and exploring AI/ML</title>
+  <desc id="desc">Dark editorial banner with a terminal snippet from Asmit's portfolio.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070B14"/>
+      <stop offset="55%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#10182B"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="18%" cy="20%" r="45%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="86%" cy="80%" r="42%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#22D3EE"/>
+      <stop offset="70%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#122033"/>
+      <stop offset="100%" stop-color="#0E1726"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#94A3B8" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <clipPath id="round">
+      <rect x="0" y="0" width="1600" height="480" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1600" height="480" fill="url(#bg)"/>
+    <rect width="1600" height="480" fill="url(#grid)"/>
+    <circle cx="220" cy="80" r="220" fill="url(#glowA)"/>
+    <circle cx="1380" cy="430" r="260" fill="url(#glowB)"/>
+    <circle cx="980" cy="70" r="90" fill="#22D3EE" opacity="0.06" filter="url(#soft)"/>
+
+    <!-- faint orbit -->
+    <ellipse cx="1280" cy="240" rx="210" ry="150" fill="none" stroke="#67E8F9" stroke-opacity="0.12" stroke-width="1.2"/>
+    <ellipse cx="1280" cy="240" rx="160" ry="110" fill="none" stroke="#A5B4FC" stroke-opacity="0.10" stroke-width="1"/>
+
+    <!-- left copy -->
+    <text x="72" y="92" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="3.4">BHUBANESWAR, INDIA  ·  CSE</text>
+
+    <text x="70" y="176" fill="#F8FAFC" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1.2">Asmit Chhotaray</text>
+
+    <text x="72" y="228" fill="#94A3B8" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22">Building useful things, one idea at a time.</text>
+
+    <rect x="72" y="268" width="188" height="38" rx="19" fill="url(#chip)" stroke="#22D3EE" stroke-opacity="0.35"/>
+    <text x="166" y="293" text-anchor="middle" fill="#E2E8F0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14">Web Development</text>
+
+    <rect x="272" y="268" width="148" height="38" rx="19" fill="url(#chip)" stroke="#818CF8" stroke-opacity="0.35"/>
+    <text x="346" y="293" text-anchor="middle" fill="#E2E8F0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14">Backend</text>
+
+    <rect x="432" y="268" width="128" height="38" rx="19" fill="url(#chip)" stroke="#34D399" stroke-opacity="0.35"/>
+    <text x="496" y="293" text-anchor="middle" fill="#E2E8F0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14">AI / ML</text>
+
+    <rect x="72" y="348" width="220" height="3" rx="2" fill="url(#line)"/>
+
+    <text x="72" y="392" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">status: shipping in public  ·  2026</text>
+
+    <!-- terminal card -->
+    <g transform="translate(980,86)">
+      <rect width="540" height="308" rx="18" fill="#070B14" fill-opacity="0.78" stroke="#1E293B" stroke-width="1.4"/>
+      <rect width="540" height="42" rx="18" fill="#0B1220"/>
+      <rect y="24" width="540" height="18" fill="#0B1220"/>
+      <circle cx="24" cy="21" r="6" fill="#F87171"/>
+      <circle cx="44" cy="21" r="6" fill="#FBBF24"/>
+      <circle cx="64" cy="21" r="6" fill="#34D399"/>
+      <text x="92" y="26" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">asmit.dev / now</text>
+
+      <text x="28" y="78" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">01</text>
+      <text x="68" y="78" fill="#C084FC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">const</text>
+      <text x="136" y="78" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">curiosity</text>
+      <text x="246" y="78" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">=</text>
+      <text x="270" y="78" fill="#86EFAC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">"build"</text>
+      <text x="352" y="78" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">;</text>
+
+      <text x="28" y="118" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">02</text>
+      <text x="68" y="118" fill="#C084FC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">const</text>
+      <text x="136" y="118" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">learning</text>
+      <text x="232" y="118" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">=</text>
+      <text x="256" y="118" fill="#FBBF24" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">true</text>
+      <text x="304" y="118" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">;</text>
+
+      <text x="28" y="158" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">03</text>
+
+      <text x="28" y="198" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">04</text>
+      <text x="68" y="198" fill="#C084FC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">while</text>
+      <text x="132" y="198" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">(</text>
+      <text x="148" y="198" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">learning</text>
+      <text x="236" y="198" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">) {</text>
+
+      <text x="28" y="238" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">05</text>
+      <text x="88" y="238" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">ship</text>
+      <text x="136" y="238" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">(</text>
+      <text x="152" y="238" fill="#F472B6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">somethingUseful</text>
+      <text x="322" y="238" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">);</text>
+
+      <text x="28" y="278" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">06</text>
+      <text x="68" y="278" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">}</text>
+    </g>
+  </g>
+</svg>
